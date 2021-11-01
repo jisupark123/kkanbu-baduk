@@ -2,29 +2,31 @@
   width: 100%;
   height: 80px;
   display: flex;
-
   align-items: center;
   position: fixed;
   left: 0;
   top: 0;
   font-size: 1.6rem;
-  padding: 20px 50px 20px 30px;
-
   background-color: white;
+}
+
+.header__logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header a:first-child img {
   width: 130px;
-  position: absolute;
-  top: 10px;
-  left: 30px;
 }
 
 .header__links {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
+  padding-right: 15%;
 }
 
 .header__links a {
@@ -36,4 +38,15 @@
 
 .header__links a:hover {
   color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .header a:first-child img {
+    width: 70px;
+    top: 25px;
+    left: 10px;
+  }
+  .header__links a {
+    margin: 0 10px 0 10px;
+  }
 }
