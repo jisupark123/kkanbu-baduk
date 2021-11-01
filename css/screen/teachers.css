@@ -1,0 +1,48 @@
+.teachers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teachers__box {
+  width: 45%;
+  height: 90%;
+  border: 1px solid black;
+  margin: 0px 30px 0px 30px;
+  background-color: #909eea;
+}
+
+.teachers__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+.teachers__intro__name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 30px 0 30px 0;
+}
+
+.teachers__intro__description {
+  font-size: 2.3rem;
+  opacity: 0.7;
+}
+
+.teachers__career {
+  width: 100%;
+  height: 70%;
+  padding: 30px 0 0 20px;
+}
+
+.teachers__career ul {
+  font-size: 2rem;
+}
+
+.teachers__career li {
+  margin-bottom: 20px;
+}

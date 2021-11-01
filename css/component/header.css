@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: 1.6rem;
+  padding: 20px 50px 20px 30px;
+
+  background-color: white;
+}
+
+.header a:first-child img {
+  width: 130px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header__links a {
+  cursor: pointer;
+  color: rgb(199, 0, 103);
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+}
+
+.header__links a:hover {
+  color: blue;
+}

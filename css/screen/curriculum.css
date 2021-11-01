@@ -1,0 +1,53 @@
+.curriculum {
+  width: 100%;
+  height: 100%;
+}
+
+.curriculum__box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  border-bottom: 1px solid black;
+}
+
+.curriculum__title-box {
+  width: 20%;
+  height: 100%;
+}
+
+.curriculum__step {
+  width: 100%;
+  height: 30%;
+  color: var(--main-color);
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curriculum__title {
+  width: 100%;
+  height: 70%;
+  font-size: 3rem;
+  background-color: var(--main-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curriculum__content-box {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.3rem;
+}
+
+.curriculum__content-box p {
+  margin-bottom: 20px;
+}
