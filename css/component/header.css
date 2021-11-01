@@ -31,13 +31,13 @@
 
 .header__links a {
   cursor: pointer;
-  color: rgb(199, 0, 103);
+  color: var(--main-color);
   text-decoration: none;
   margin: 0 20px 0 20px;
 }
 
 .header__links a:hover {
-  color: blue;
+  color: var(--yellow);
 }
 
 @media screen and (max-width: 768px) {

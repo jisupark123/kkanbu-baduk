@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to bottom right, #97a6fa, #1835d0);
 }
 
 .teachers__box {
@@ -11,7 +12,7 @@
   height: 90%;
   border: 1px solid black;
   margin: 0px 30px 0px 30px;
-  background-color: #909eea;
+  background-color: white;
 }
 
 .teachers__intro {

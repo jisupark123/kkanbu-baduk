@@ -8,12 +8,13 @@
   align-items: center;
   width: 100%;
   height: 45%;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid var(--main-color);
 }
 
 .curriculum__title-box {
   width: 20%;
   height: 100%;
+  border: 2px solid var(--main-color);
 }
 
 .curriculum__step {

@@ -25,7 +25,7 @@
 }
 
 .main__wrap:first-child .main__main-content {
-  color: #0303ff;
+  color: var(--main-color);
 }
 
 .with-img {

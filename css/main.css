@@ -11,6 +11,7 @@
 @import url(screen/intro.css);
 @import url(screen/teachers.css);
 @import url(screen/curriculum.css);
+@import url(screen/apply.css);
 
 html,
 body {
@@ -35,5 +36,11 @@ body {
 @media screen and (max-width: 768px) {
   html {
     font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    -webkit-tap-highlight-color: transparent;
   }
 }

@@ -1,0 +1,44 @@
+.apply-main {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #97a6fa, #1835d0);
+  display: flex;
+  justify-content: center;
+}
+
+.apply__content {
+  width: 30%;
+  height: 80%;
+  background-color: rgb(250, 204, 244);
+}
+
+.apply__description {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: var(--main-color);
+}
+
+.apply__way {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-content: flex-start;
+  font-size: 3rem;
+}
+
+.apply__way__title {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.apply__way__content {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
