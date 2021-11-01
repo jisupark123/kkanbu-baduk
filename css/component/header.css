@@ -11,7 +11,7 @@
 }
 
 .header__logo {
-  width: 25%;
+  width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,5 +48,8 @@
   }
   .header__links a {
     margin: 0 10px 0 10px;
+  }
+  .header__logo {
+    width: 25%;
   }
 }
