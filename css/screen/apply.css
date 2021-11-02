@@ -2,15 +2,16 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  background: linear-gradient(to bottom right, #97a6fa, #1835d0);
+  background-image: url("../../img/abstract-g4624440da_1920.jpg");
+  background-size: contain;
   display: flex;
   justify-content: center;
 }
 
 .apply__content {
-  width: 30%;
-  height: 80%;
-  background-color: rgb(250, 204, 244);
+  width: 25%;
+  height: 60%;
+  background-color: whitesmoke;
 }
 
 .apply__description {
@@ -19,16 +20,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--main-color);
 }
 
 .apply__way {
   width: 100%;
-  height: 20%;
+  height: 30%;
   display: flex;
   align-content: flex-start;
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 .apply__way__title {
