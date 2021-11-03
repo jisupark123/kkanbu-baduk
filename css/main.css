@@ -27,6 +27,7 @@ body {
   background-color: whitesmoke;
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 80px;
+  -webkit-user-select: none;
 }
 
 * {

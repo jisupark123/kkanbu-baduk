@@ -33,9 +33,13 @@
 }
 
 .main__main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 30px;
+  line-height: 38px;
 }
 
 .main__sub-content {
