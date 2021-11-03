@@ -1,51 +1,90 @@
 .apply-main {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  background-image: url("../../img/abstract-g4624440da_1920.jpg");
-  background-size: contain;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 6%;
+  background-color: var(--main-color);
+  color: whitesmoke;
+  overflow-y: auto;
 }
 
-.apply__content {
-  width: 25%;
-  height: 60%;
-  background-color: whitesmoke;
+.apply__main-box {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apply__title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply__title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 7vh;
+  letter-spacing: 3px;
 }
 
 .apply__description {
-  width: 100%;
-  height: 20%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  margin-bottom: 10vh;
+}
+
+.apply__content-box {
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
-  color: var(--main-color);
 }
 
-.apply__way {
-  width: 100%;
-  height: 30%;
+.apply__each-way {
+  width: 50%;
   display: flex;
-  align-content: flex-start;
-  font-size: 2.3rem;
-}
-
-.apply__way__title {
-  width: 20%;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.apply__way__content {
-  width: 60%;
+.apply__icon {
+  font-size: 6rem;
+  margin-bottom: 7vh;
+}
+
+.apply__each-way:first-child .apply__icon {
+  color: rgb(231, 108, 194);
+}
+.apply__each-way:nth-child(2) .apply__icon {
+  color: var(--yellow);
+}
+
+.apply__content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 7vh;
 }
 
 @media screen and (max-width: 768px) {
-  .apply__content {
-    width: 70%;
+  .apply__main-box {
+    width: 100%;
+  }
+  .apply__content-box {
+    flex-direction: column;
   }
 }
